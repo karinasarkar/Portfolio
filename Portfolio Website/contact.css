@@ -1,0 +1,62 @@
+.contact-content{
+    margin-left: 7rem;
+    width: 90%;
+    background-color: #f4f4f4;
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+}
+.container2{
+    display: flex;
+}
+.form{
+    margin-left: 4rem;
+}
+.icons{
+    width: 25px;
+    margin-right: 5rem;
+}
+.input-name, .input-email, .message{
+    padding: 0.7rem 1.5rem;
+    border: none;
+    color: #a7a7a7;
+    margin-bottom: 1rem;
+    width: 24rem;
+}
+.contact-info{
+    justify-content: space-evenly;
+}
+.info{
+    display: flex;
+    margin:40px 20px;
+}
+
+@media (min-width:961px) and (max-width: 1100px){
+    .icons{
+        margin-right: 1rem;
+    }
+}
+
+@media (max-width: 960px){
+    .container2{
+        display: block;
+    }
+    .hr-line{
+        display: none;
+    }
+    .contact-info, .form{
+        margin-left: 0rem;
+    }
+    .contact-content{
+        margin-top:4rem;
+        margin-left: 4rem;
+    }
+    .input-name, .input-email, .message{
+        width: 80%;
+    }
+    .icons{
+        width: 20px;
+        height: 20px;
+        margin-right: 3rem;
+    }
+}

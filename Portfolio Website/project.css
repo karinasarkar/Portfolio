@@ -1,0 +1,86 @@
+.project-content{
+    margin-left: 7rem;
+    width: 90%;
+    background-color: #f4f4f4;
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.card-text{
+    font-weight: 600;
+}
+.container1{
+    margin-left: 4rem;
+    padding-bottom: 4rem;
+}
+.row{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.card-body{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1px;
+    background-color: white;
+    padding: 10px 20px;
+    align-items: center;
+}
+.image{
+    overflow: hidden;
+    height: 15rem;
+    position: relative;
+}
+.img:hover{
+    transform: scale(1.2);
+    overflow: hidden;
+    transition: 1s;
+    opacity: 0.5;
+}
+.card{
+    overflow: hidden;
+    width: 20rem;
+    margin-bottom: 2rem;
+}
+.row{
+    margin-bottom: 3rem;
+}
+.img{
+    width: 100%;
+}
+.colm{
+    width: fit-content;
+    margin-right: 0;
+}
+
+@media (max-width: 1200px){
+    .row{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+
+@media (max-width: 960px){
+    .project-content{
+        margin-top: 4rem;
+        margin-left: 4rem;
+        height: 100%;
+    }
+    .container1{
+        margin-left: 0rem;
+    }
+    .row{
+        flex-wrap:nowrap;
+    }
+}
+@media (max-width: 756px){
+    .row{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+@media (max-width:450px){
+    .project-content{
+        margin-left: 1rem;;
+    }
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+<section id="contact">
+           <!-- MOBILE NAVBAR -->
+<div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="icon/Group 2.png" alt=""></a>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="project.html">Projects</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  
+  
+<!-- DESTOP NAVBAR -->
+    <div class="navbar">
+        <div class="logo">K</div>
+        <div class="navs">
+        <li><a href="index.html" ><img src="icon/Group 7.png" alt="" class="nav nav1"></a></li>
+        <li><a href="about.html"><img src="icon/Group 8.png" alt="" class="nav nav2"></a></li>
+        <li><a href="project.html"><img src="icon/Group 9.png" alt="" class="nav nav3"></a></li>
+        <li><a href="contact.html"><img src="icon/Group 14.png" alt="" class="nav nav4"></a></li>
+        </div>
+    </div>
+    <button class="openbtn" onclick="openNav()"><img src="icon/Group 1.png" alt=""></button>
+        <div class="contact-content">
+         
+            <div class="about-heading">
+                <div class="line animate__animated animate__fadeInDown animate__delay-1s"></div>
+                <div class="animate__animated animate__fadeInLeft">
+                <h1 class="about">Contact</h1>
+                <div class="about-text">Feel free to leave a feedback</div>
+                </div>
+            </div>
+
+        <div class="container2">
+            <div class="form">
+                <form action="mailto:krna.srkr26@gmail.com" target="_blank" method="POST" enctype="text/plain">
+                    <input type="text" placeholder="Name" name="Name" class="input-name">
+                    <br>
+                    <input type="email" placeholder="Email" name="Email" class="input-email">
+                    <br>
+                    <textarea placeholder="Leave a message" class="message" name="message" cols="48" rows="8"></textarea>
+                    <br>
+                    <button type="submit" class="about-btn animate__animated animate__flipInX">SEND</button>
+                </form>
+            </div>
+
+            <hr class="hr-line" style="margin: 0 5rem; color: #505050;">
+
+            <div class="contact-info">
+                <div class="info">
+                    <img src="icon/Vector.png" alt="" class="icons">
+                    <p>Beleghata, Kolkata- 700010</p>
+                </div>
+                <div class="info">
+                    <img src="icon/Vector (1).png" alt="" class="icons">
+                    <p><a href="tel:8583868450" style="text-decoration:none; color: #000;">+918583868450</a></p>
+                </div>
+                <div class="info">
+                    <img src="icon/Vector (2).png" alt="" class="icons">
+                    <p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=krna.srkr26@gmail.com" target="" style="text-decoration:none; color: #000;">krna.srkr26@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+
+           
+        
+        </div>
+        <script src="app.js"></script>
+    </section>
+</body>
+</html>
